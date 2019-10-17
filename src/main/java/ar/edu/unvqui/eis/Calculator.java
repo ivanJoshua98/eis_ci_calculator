@@ -13,7 +13,7 @@ public class Calculator {
     public static int mult(int a, int b) {
         return a * b; 
     }
-  
+
     public static int pow(int base, int exponent) {
         int res = base;
         for (int i = 1; i < exponent; i++){
@@ -33,4 +33,7 @@ public class Calculator {
     }
 
     public static int div(int a, int b) { return a / b; }
+
+    public static int module(int x, int y) { return x % y;}
+
 }
